@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "affdca13-14ac-4107-85ee-6647cbc75a98",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "affdca13-14ac-4107-85ee-6647cbc75a98" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "affdca13-14ac-4107-85ee-6647cbc75a98" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4582D21B-19E7-42A1-9131-5BC2C26E89AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "affdca13-14ac-4107-85ee-6647cbc75a98" : "YiChat\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JHCYiChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JHCYiChat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/YiChat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "affdca13-14ac-4107-85ee-6647cbc75a98"
+    }
+  ]
+}

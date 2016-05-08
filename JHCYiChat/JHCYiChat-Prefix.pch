@@ -1,0 +1,67 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+//把宏定义定义到前面
+#define ACCESS_TOKEN_KEY @"access_token"
+#define ACCESS_TOKEN_VALUE \
+[[NSUserDefaults standardUserDefaults] objectForKey:@"access_token"]
+
+#define TIME_KEY @"time"
+
+#define HOST(_COMMAND_) \
+[NSString stringWithFormat:@"http://localhost:8080/st/s?command=%@",_COMMAND_]
+
+
+#define HOST_ACCESS_TOKEN(_COMMAND_,_Access_token_) \
+[NSString stringWithFormat:@"http://localhost:8080/st/s?command=%@&access_token=%@",_COMMAND_,_Access_token_]
+
+
+#define ALERT_SHOW(_Message_) \
+UIAlertView *alt=[[UIAlertView alloc]initWithTitle:@"温馨提示" message:_Message_ delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];\
+[alt show];
+
+#define SCREEN_HEIGHT  [UIScreen mainScreen].bounds.size.height
+
+#define RequestCompletionNoArgument \
+    [request setCompletionBlock:^{\
+    NSDictionary *resultDict=[NSJSONSerialization JSONObjectWithData:request.responseData options:NSJSONReadingAllowFragments error:nil];\
+    NSString *error=[resultDict objectForKey:@"error"];\
+    if (error) {\
+        ALERT_SHOW(error);\
+    }else\
+    {\
+        if (completion) {\
+            completion(YES);\
+    }\
+}\
+}];
+
+
+
+
+#import "People.h"
+#import "News.h"
+#import "DetailNews.h"
+#import "File.h"
+#import "ASIFormDataRequest.h"
+#import "ASIHTTPRequest.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "NSString+Encryption.h"
+#import "TableViewCell.h"
+#import "ChatTableViewCell.h"
+#import "ASIHTTPRequest.h"
+#import "MyRequest.h"
+#endif

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4582D21B-19E7-42A1-9131-5BC2C26E89AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JHCYiChat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>affdca13-14ac-4107-85ee-6647cbc75a98</key>
+		<string>http://code.taobao.org/svn/YiChat</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JHCYiChat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>affdca13-14ac-4107-85ee-6647cbc75a98</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>affdca13-14ac-4107-85ee-6647cbc75a98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>affdca13-14ac-4107-85ee-6647cbc75a98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YiChat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
